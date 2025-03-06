@@ -3,5 +3,6 @@
   "version": "0.0.1",
   "author": "mstyura",
   "license": "MIT",
-  "description": "custom webrtc audio device"
+  "description": "custom webrtc audio device",
+  "main": "package.json"
 }
