@@ -267,7 +267,7 @@ extension AUAudioUnitRTCAudioDevice: RTCAudioDevice {
   }
 
   func initialize(with delegate: RTCAudioDeviceDelegate) -> Bool {
-    guard self.delegate == nil else {
+    guard self.delegate == nil || self.audioUnit == nil else {
       return false
     }
 
